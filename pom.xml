@@ -280,6 +280,11 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>4.1.32.Final</version>
+      </dependency>
+      <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>netty-dev-tools</artifactId>
         <version>${project.version}</version>
